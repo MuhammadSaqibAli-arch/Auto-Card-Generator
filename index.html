@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .head{
+        margin: auto;
+    }
+    input{
+        text-align: center;
+    }
+    #card{
+        width: 200px;
+        height: 300px;
+        border: 2px solid #777;
+        border-radius: 8px;
+        text-align: center;
+        background-color: #444;
+        color: white;
+        
+    }
+    .pic{
+        border: 1px solid #777;
+        width: 100px;
+        height: 100px;
+        margin: auto;
+        margin-top: 10px;
+        border-radius: 100%;
+        overflow: hidden;
+        
+    }
+    .pic img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+</style>
+<body>
+    <h1 class="head">Contact Us</h1>
+    <p class="head">Please fill out this form and we will got in touch with you shortly</p>
+    <hr>
+<div id="main">
+         <form action="">
+        <label for="pic">Profile URL:</label> <br>
+        <input type="text" name="" id=""> <br>
+        <label for="name">Your Name:</label> <br>
+        <input type="text" name="" id="name" placeholder="First name"> <br>
+        <label for="mail">Your E-mail Address:</label> <br>
+        <input type="email" name="mail" id="" placeholder="ex:someone@gmail.com"> <br>
+        <label for="num">Phone Number:</label> <br>
+        <input type="text" name="num" id="" placeholder="+92-00000000"> <br>
+        <label for="">Your Message:</label> <br>
+        <textarea name="" id="" cols="50" rows="10"></textarea> <br>
+        <input type="submit" value="Submit">
+    </form> 
+    <!-- <div id="card">
+        <div class="pic">
+            <img src="img/saqib.jpeg" alt="">
+        </div>
+        <h3>Muhammad Saqib Ali</h3>
+        <h4>saqib@gmail.com</h4>
+        <p>0332-9152885</p>
+        <span>Hey! I am Web Developer.</span>
+
+    </div> -->
+
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
